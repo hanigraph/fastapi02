@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 app = FastAPI(
-    title='calculates student loan repayments',
+    title='Student loan payments',
     version='MOTOPP 0.1'
    )
 
