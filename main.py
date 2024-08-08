@@ -4,7 +4,10 @@ from typing import Optional
 from fastapi.middleware.cors import CORSMiddleware
 
 
-app = FastAPI()
+app = FastAPI(
+    title='calculates student loan repayments',
+    version='MOTOPP 0.1'
+   )
 
 # Add CORS middleware
 app.add_middleware(
